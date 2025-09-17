@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#F9F9F9"
+tools:context=".MainActivity">
+
+<!-- App Title -->
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="MAD_Alarm_Practical"
+android:textSize="20sp"
+android:textStyle="bold"
+android:padding="16dp" />
+
+<!-- Card -->
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="12dp"
+app:cardCornerRadius="12dp"
+app:cardElevation="6dp">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+<!-- Banner Photo -->
+<ImageView
+android:id="@+id/imgBanner"
+android:layout_width="match_parent"
+android:layout_height="180dp"
+android:scaleType="centerCrop"
+android:src="@drawable/alarm_banner" />
+
+<!-- Content Area -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp"
+android:background="#E8F2E9">
+
+<TextView
+android:id="@+id/tvHeading"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Create Alarm Time"
+android:textSize="18sp"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/tvDesc"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:paddingTop="6dp"
+android:text="By pressing buttons, Alarm can be created and cancelled.\n\nCheck Current time by looking below real digital clock."
+android:textSize="14sp" />
+
+<!-- Digital Clock -->
+<TextView
+android:id="@+id/tvClock"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center"
+android:paddingTop="12dp"
+android:paddingBottom="12dp"
+android:text="11:45:17 PM Aug,14 2022"
+android:textSize="16sp"
+android:textStyle="bold" />
+
+<!-- Create Alarm Button -->
+<Button
+android:id="@+id/btnCreateAlarm"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="8dp"
+android:backgroundTint="#2E7D32"
+android:drawableStart="@android:drawable/ic_lock_idle_alarm"
+android:drawablePadding="8dp"
+android:paddingLeft="18dp"
+android:paddingRight="18dp"
+android:text="Create Alarm"
+android:textAllCaps="false"
+android:textColor="@android:color/white" />
+
+</LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>
