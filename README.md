@@ -1,4 +1,4 @@
-$$AIM: Create an Android Alarm application by using service & BroadcastReceiver$$
+Practical-4 : Create an Android Alarm application by using service & BroadcastReceiver.
  
  1.Create MainActivity according to below UI design.
 
