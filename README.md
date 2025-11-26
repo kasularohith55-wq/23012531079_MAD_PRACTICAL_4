@@ -12,5 +12,4 @@ Practical-4 : Create an Android Alarm application by using service & BroadcastRe
 
 OUTPUT :
 
-
-      <img width="691" height="845" alt="image" src="https://github.com/user-attachments/assets/2ae22462-146c-415e-b604-bee8eca86ecc" />
+ <img width="691" height="845" alt="image" src="https://github.com/user-attachments/assets/2ae22462-146c-415e-b604-bee8eca86ecc" />
